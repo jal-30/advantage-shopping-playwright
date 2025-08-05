@@ -11,6 +11,8 @@ export default defineConfig({
   use: {
    
     screenshot: "on",
+
+    retries: "1",
     
     video: "retain-on-failure",
 
