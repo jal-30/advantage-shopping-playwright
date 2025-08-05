@@ -12,12 +12,13 @@ export default defineConfig({
    
     screenshot: "on",
 
-    retries: "1",
+    
     
     video: "retain-on-failure",
 
     trace: "on",
-    headless:false,
+    headless: process.env.CI ? true : false,
+
 
     viewport: { width: 1280, height: 720 },
 
