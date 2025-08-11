@@ -10,13 +10,13 @@ import { ContactPage } from '../pages/ContactPage.js';
 
 
 
-console.log("🔍 e2eFlow.spec.js is loaded");
+// console.log("🔍 e2eFlow.spec.js is loaded");
 
-test('basic test', async ({ page }) => {
-  console.log("✅ Test block is running");
-  await page.goto('https://example.com');
-  expect(await page.title()).toContain("Example");
-});
+// test('basic test', async ({ page }) => {
+//   console.log("✅ Test block is running");
+//   await page.goto('https://example.com');
+//   expect(await page.title()).toContain("Example");
+// });
 
 // Load JSON data
 const users = require('../testData/users.json');
